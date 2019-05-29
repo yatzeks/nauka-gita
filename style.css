@@ -1,94 +1,44 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Dokument bez tytułu</title>
-<style type="text/css">
-.title {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 36px;
-	font-style: normal;
-	line-height: normal;
-	font-weight: bold;
-	color: #F33;
-	margin-left: 150px;
-	text-align: left;
-	padding: 15px;
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
 }
-.subtitle {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-style: italic;
-	line-height: normal;
-	font-weight: lighter;
-	padding: 10px;
-	margin-left: 160px;
-	background-color: #F00;
+.container h2{
+    font-family:'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1;
+    color:white;
+    background:red;
+    padding:10px;
 }
-.body-text {
-	font-style: italic;
-	text-align: left;
-	padding: 15px;
-	margin-left: 150px;
+.container h3{
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 0.3;
 }
-.autor {
-	font-family: Arial, Helvetica, sans-serif;
-	font-style: italic;
-	font-weight: bolder;
-	background-color: #F00;
-	padding: 10px;
+.container {
+	width: 80%;
+	max-width: 1000px;
+	padding: 20px;
+	margin: 20px auto;
 }
-</style></head>
-
-<body>
-<p class="title">MY WAY</p>
-<p class="subtitle">	by Frank Sinatra</p>
-<p class="body-text">And now, the end is near <br>
-  And so I face the final curtain <br>
-  You cunt, I'm not a queer <br>
-  I'll state my case, of which I'm certain <br>
-  I've lived a life that's full <br>
-  And each and every highway <br>
-  And yet, much more than this <br>
-  I did it my way <br>
-  <br>
-  Regrets I've had a few <br>
-  But then again, too few to mention <br>
-  But dig, what I have to do <br>
-  I'll see it through with no devotion <br>
-  Of that, take care and just <br>
-  Be careful along the highway <br>
-  And more, much more than this <br>
-  I did it my way <br>
-  <br>
-  There were times, <br>
-  I'm sure you knew <br>
-  When there was nothing <br>
-  Fucking else to do <br>
-  But through it all, <br>
-  When there was doubt <br>
-  I shot it up or kicked it out <br>
-  I fought the just as before <br>
-  And did it my way <br>
-  <br>
-  Knocked out in bed last night <br>
-  I've had my fill, my share of looting <br>
-  And now, the tears subside <br>
-  I find it all so amusing <br>
-  To think, I killed a cat <br>
-  And may I say, oh no, not their way <br>
-  But no, no, not me <br>
-  I did it my way <br>
-  <br>
-  For what is a brat, <br>
-  What has he got <br>
-  When he finds out that he cannot <br>
-  Say the things he truly thinks <br>
-  But only the words, <br>
-  Not what he feels <br>
-  The record shows, <br>
-  I've got no clothes <br>
-  And did it my way</p>
-<p class="body-text"><span class="autor">AUTOR: FRANK SINATRA</span></p>
-</body>
-</html>
+.row {
+	display:flex;
+}
+.box {
+	flex: 1;
+	padding: 20px;
+	 font-style: italic;
+	}
+	.box p{
+	    font-family:'Roboto', sans-serif;
+	    background: red;
+	    padding: 5px;
+	}
+.footer {
+	padding: 20px;
+	text-align: center;
+	font-size: 10px;
+}
