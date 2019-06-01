@@ -1,1 +1,2 @@
 autoprefixer-cli -o main.prefixed.css main.css
+vnu-runtime-image\bin\vnu.bat --html --skip-non-html --format gnu|xml|json|text
